@@ -1,0 +1,1 @@
+06. Crie uma lista de usuários em um arquivo txt, que seja preenchida por meio da URL, via GET.

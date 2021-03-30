@@ -1,0 +1,1 @@
+08. Crie um arquivo em txt e depois converta-o para CSV. Depois leia o CSV resultante e exiba os dados em uma tabela.
