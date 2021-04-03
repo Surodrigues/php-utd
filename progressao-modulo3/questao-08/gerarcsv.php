@@ -14,6 +14,7 @@
     # escrever cabeçalho no csv
     fputcsv($arquivo, $header);
 
+    # escrever dados
     foreach ($produtos as $key => $value) {
         $dados = explode(" - ", $value);
         fputcsv($arquivo, $dados);        
