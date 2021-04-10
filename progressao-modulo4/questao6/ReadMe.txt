@@ -1,0 +1,1 @@
+06. Crie o escopo básico de framework em .zip, onde seja possível extrair e o mesmo já contenha um formulário de login e cadastro. 

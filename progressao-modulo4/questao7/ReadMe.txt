@@ -1,0 +1,1 @@
+07. Baixe e instale o Opencart (framework de ecommerce), em seguida, crie sua loja virtual. 
