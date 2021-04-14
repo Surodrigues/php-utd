@@ -1,3 +1,11 @@
+<?php
+
+    $dados = $_POST;
+
+    $campos = explode(",", $dados['campos']);
+
+
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -14,23 +22,23 @@
     <div style="padding-top: 20px;" class="container">
       <div class="col-md-4 offset-md-3">
 
-        <h1 style="color: rgb(165, 32, 147);">Crie um Formulário</h1><br>
+        <h1 style="color: rgb(165, 32, 147);">Formulário</h1><br>
 
-        <form action="criaformulario.php" method="post">
+        <form action="" method="">
 
-          <label for="" class="form-label">Digite os nomes dos campos separados por vírgula:</label><br>
+        <?php
 
-          <textarea class="form-control" name="campos" id="" cols="50" rows="2" placeholder="Exemplo: Campo1, Campo2, ..., CampoN"></textarea><br> 
+            foreach ($campos as $key => $value) { ?>
+                <label for="" class="form-label"><?=$value?></label><br>
+                <input type="text" id="" name="<?=$value?>"><br><br>     
 
-          <button style="background-color: rgb(165, 32, 147); border-color: rgb(165, 32, 147);" class="btn btn-primary">Criar</button>
+        <?php } ?>
 
-            
+                <button style="background-color: rgb(165, 32, 147); border-color: rgb(165, 32, 147);" class="btn btn-primary">Enviar</button>         
+
         </form>
 
-
-
-
-
+        
 
       </div>
     </div>
