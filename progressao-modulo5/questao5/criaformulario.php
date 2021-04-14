@@ -30,7 +30,7 @@
 
             foreach ($campos as $key => $value) { ?>
                 <label for="" class="form-label"><?=$value?></label><br>
-                <input type="text" id="" name="<?=$value?>"><br><br>     
+                <input type="text" id="" name=""><br><br>     
 
         <?php } ?>
 
